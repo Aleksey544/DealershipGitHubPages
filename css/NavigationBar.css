@@ -1,0 +1,36 @@
+﻿.navigation {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    margin: 0 auto;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-inline: 0.9em;
+    font-size: 1.55em;
+    transition: .3s;
+}
+
+.menu li a:hover {
+    color: aqua;
+}
+
+.main-logo {
+    font-size: 1.75em;
+    font-family: 'Quicksand', sans-serif;
+    color: aqua;
+}
